@@ -60,7 +60,7 @@ def calculate():
         st.write("The risk of CKD stage ≥3 is: 72.0% at 1 year of age and 88.9% at 5 years of age")
     elif ans == 5:
         st.write("The risk of CKD stage ≥3 is: 100.0% at 1 year of age and 100.0% at 5 years of age")
-    elif ans == 6
+    elif ans == 6:
         st.write("The risk of CKD stage ≥3 is: 100.0% at 1 year of age and 100.0% at 5 years of age")
 
 if st.button("Calculate result"):
