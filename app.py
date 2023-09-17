@@ -26,18 +26,18 @@ def get_key(val):
             return value
 
 # input 1
-num1 = st.radio ("Baseline Cr >150umol/L (1.7 mg/dL)", tuple(Option_dict_2.keys()))
+num1 = st.radio ("Baseline Cr >150umol/L (1.7 mg/dL), 2 points", tuple(Option_dict_2.keys()))
  
 # input 2
-num2 = st.radio("Failure to thrive", tuple(Option_dict_2.keys()))
+num2 = st.radio("Failure to thrive, 2 points", tuple(Option_dict_2.keys()))
 st.caption('Failure to thrive is defined as: failure to regain birthweight within 14 days of birth or presenting with a drop in at least 1 growth curve.')
 
 # input 3
-num3 = st.radio("High grade VUR on ultrasound", tuple(Option_dict_1.keys()))
+num3 = st.radio("High grade VUR on ultrasound, 1 point", tuple(Option_dict_1.keys()))
 st.caption('High grade defined as grade ≥3')
 
 # input 4
-num4 = st.radio("Renal dysplasia on ultrasound", tuple(Option_dict_1.keys()))
+num4 = st.radio("Renal dysplasia on ultrasound, 1 point", tuple(Option_dict_1.keys()))
  
 st.write("Calculate")
  
