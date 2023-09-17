@@ -44,8 +44,6 @@ st.write("Calculate")
 def calculate():
     ans = get_value(num1,Option_dict_2) + get_value(num2,Option_dict_2) + get_value(num3,Option_dict_1) + get_value(num4,Option_dict_1)
     st.success(f"The PURK score is = {ans}")
-    st.image('CKD3.png')
-    st.caption('Likelihood of CKD stage ≥3 based on PURK Score - a combined cohort of SickKids and Sanjay Gandhi Hospital')
 
  #print the risk of CKD stage ≥3
     if ans == 0:
@@ -62,6 +60,9 @@ def calculate():
         st.write("The risk of CKD stage ≥3 is: 100.0% at 1 year of age and 100.0% at 5 years of age")
     elif ans == 6:
         st.write("The risk of CKD stage ≥3 is: 100.0% at 1 year of age and 100.0% at 5 years of age")
+
+    st.image('CKD3.png')
+    st.caption('Likelihood of CKD stage ≥3 based on PURK Score - a combined cohort of SickKids and Sanjay Gandhi Hospital')
 
 if st.button("Calculate result"):
     calculate()
