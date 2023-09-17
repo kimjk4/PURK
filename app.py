@@ -47,5 +47,21 @@ def calculate():
     st.image('CKD3.png')
     st.caption('Likelihood of CKD stage ≥3 based on PURK Score - a combined cohort of SickKids and Sanjay Gandhi Hospital')
 
+ #print the risk of CKD stage ≥3
+    if ans == 0:
+        st.write("The risk of CKD stage ≥3 is: 0.0% at 1 and 5 years of age")
+    elif ans == 1:
+        st.write("The risk of CKD stage ≥3 is: 0.0% at 1 year of age and 13.0% at 5 years of age")
+    elif ans == 2:
+        st.write("The risk of CKD stage ≥3 is: 4.3% at 1 year of age and 22.2% at 5 years of age")
+    elif ans == 3:
+        st.write("The risk of CKD stage ≥3 is: 42.9% at 1 year of age and 61.5% at 5 years of age")
+    elif ans == 4:
+        st.write("The risk of CKD stage ≥3 is: 72.0% at 1 year of age and 88.9% at 5 years of age")
+    elif ans == 5:
+        st.write("The risk of CKD stage ≥3 is: 100.0% at 1 year of age and 100.0% at 5 years of age")
+    elif ans == 6
+        st.write("The risk of CKD stage ≥3 is: 100.0% at 1 year of age and 100.0% at 5 years of age")
+
 if st.button("Calculate result"):
     calculate()
