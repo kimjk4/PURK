@@ -3,8 +3,8 @@
 import streamlit as st
  
 st.title("Calculate your PURK Score")
-st.header("Posterior Urethral valve Risk of chronic Kidney disease (PURK) score is a tool developed at The Hospital for Sick Children (SickKids)")
-st.write("It has been externally validated in a cohort of children from Sanjay Gandhi, India.")
+st.write("Posterior Urethral valve Risk of chronic Kidney disease (PURK) score is a tool developed at The Hospital for Sick Children (SickKids).")
+st.write("PURK Score has been externally validated in a cohort of children from Sanjay Gandhi, India.")
 
 # creates a horizontal line
 st.write("---")
