@@ -3,8 +3,9 @@
 import streamlit as st
  
 st.title("Calculate your PURK Score")
-st.write("Posterior Urethral valve Risk of chronic Kidney disease (PURK) score is a tool developed at The Hospital for Sick Children (SickKids).")
-st.write("PURK Score has been externally validated in a cohort of children from Sanjay Gandhi, India.")
+st.write("Posterior Urethral valve Risk of chronic Kidney disease (PURK) score is a tool developed at The Hospital for Sick Children (SickKids), Toronto, Ontario, Canada.")
+st.write("The tool was developed to estimate the risk of significant chronic kidney disease for patients <1 year of age, using variables at presentation (initial assessment).")
+st.write("PURK Score has been externally validated in a cohort of children from IWK Hospital for Children (Halifax, Nova Scotia, Canada), and Sajay Gandhi Postgraduate Institute of Medical Sciences (Lucknow, Uttar Pradesh, India)")
 
 # creates a horizontal line
 st.write("---")
@@ -47,22 +48,22 @@ def calculate():
 
  #print the risk of CKD stage ≥3
     if ans == 0:
-        st.write("The risk of CKD stage ≥3 is: 0.0% at 1 and 5 years of age")
+        st.write("The risk of CKD stage ≥3 is: <5% at 1 and 5 years of age")
     elif ans == 1:
-        st.write("The risk of CKD stage ≥3 is: 0.0% at 1 year of age and 13.0% at 5 years of age")
+        st.write("The risk of CKD stage ≥3 is: <5% at 1 year of age and 13.3% at 5 years of age")
     elif ans == 2:
-        st.write("The risk of CKD stage ≥3 is: 4.3% at 1 year of age and 22.2% at 5 years of age")
+        st.write("The risk of CKD stage ≥3 is: 44.8% at 1 year of age and 27.3% at 5 years of age")
     elif ans == 3:
-        st.write("The risk of CKD stage ≥3 is: 42.9% at 1 year of age and 61.5% at 5 years of age")
+        st.write("The risk of CKD stage ≥3 is: 57.9% at 1 year of age and 60.0% at 5 years of age")
     elif ans == 4:
-        st.write("The risk of CKD stage ≥3 is: 72.0% at 1 year of age and 88.9% at 5 years of age")
+        st.write("The risk of CKD stage ≥3 is: 100.0% at 1 year of age and 88.9% at 5 years of age")
     elif ans == 5:
         st.write("The risk of CKD stage ≥3 is: 100.0% at 1 year of age and 100.0% at 5 years of age")
     elif ans == 6:
         st.write("The risk of CKD stage ≥3 is: 100.0% at 1 year of age and 100.0% at 5 years of age")
 
     st.image('CKD3.png')
-    st.caption('Likelihood of CKD stage ≥3 based on PURK Score - a combined cohort of SickKids and Sanjay Gandhi Hospital')
+    st.caption('Likelihood of CKD stage ≥3 based on PURK Score - a combined cohort of SickKids (Toronto, Canada), IWK (Halifax, Canada), and Sanjay Gandhi Hospital (Lucknow, India)')
 
 if st.button("Calculate result"):
     calculate()
