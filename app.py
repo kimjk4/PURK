@@ -35,7 +35,7 @@ num2 = st.radio("Failure to thrive, 2 points", tuple(Option_dict_2.keys()))
 st.caption('Failure to thrive is defined as: failure to regain birthweight within 14 days of birth or presenting with a drop in at least 1 growth curve, all in absence of urosepsis.')
 
 # input 3
-num3 = st.radio("High grade VUR on ultrasound, 1 point", tuple(Option_dict_1.keys()))
+num3 = st.radio("High grade VUR on voiding cystourethrogram, 1 point", tuple(Option_dict_1.keys()))
 st.caption('High grade defined as grade ≥3')
 
 # input 4
