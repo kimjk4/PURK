@@ -4,7 +4,7 @@ import streamlit as st
  
 st.title("Calculate your PURK Score")
 st.write("Posterior Urethral valve Risk of chronic Kidney disease (PURK) score is a tool developed at The Hospital for Sick Children (SickKids), Toronto, Ontario, Canada.")
-st.write("The tool was developed to estimate the risk of significant chronic kidney disease for patients <1 year of age, using variables at presentation (initial assessment).")
+st.write("The tool was developed to estimate the risk of significant chronic kidney disease for patients <1 year of age, using variables at *presentation (initial assessment)*.")
 st.write("PURK Score has been externally validated in a cohort of children from IWK Hospital for Children (Halifax, Nova Scotia, Canada), and Sajay Gandhi Postgraduate Institute of Medical Sciences (Lucknow, Uttar Pradesh, India)")
 st.write("Please use at your own risk, peer-reviewed publication under review.")
 
