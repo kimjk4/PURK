@@ -40,7 +40,8 @@ st.caption('High grade defined as grade ≥3')
 
 # input 4
 num4 = st.radio("Renal dysplasia on ultrasound, 1 point", tuple(Option_dict_1.keys()))
- 
+st.caption('based on final imaging report from the radiologist; any reports of dysplasia, cortical cysts, diffuse scarring, or increased echogenicity')
+
 st.write("Calculate")
  
 def calculate():
