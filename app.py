@@ -68,7 +68,7 @@ def calculate():
         st.write("The risk of CKD stage ≥3 is: 100.0% at 1 year of age and 100.0% at 5 years of age")
 
     st.image('CKD3.png')
-    st.caption('Likelihood of CKD stage ≥3 based on PURK Score - a combined cohort of SickKids (Toronto, Canada), IWK (Halifax, Canada), and Sanjay Gandhi Hospital (Lucknow, India)')
+    st.caption('Likelihood of CKD stage ≥3 based on PURK Score - a combined cohort of SickKids (Toronto, Canada), IWK (Halifax, Canada), CHOC (Orange County, US), Monash Children's (Melbourne, Australia), and Sanjay Gandhi Hospital (Lucknow, India)')
 
 if st.button("Calculate result"):
     calculate()
